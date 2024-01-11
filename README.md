@@ -37,4 +37,4 @@ You can find relevant comments before all the test and page methods.
 
 Delete the account in case of unfinished run (Email: sifatjamil369@gmail.com, Password: 12345).
 
-In case the test file cannot be found, please 'Invalidate Cache' and restart the IDE.
+In case of errors such as 'Test file cannot be found', please 'Invalidate Cache' and restart the IDE.
