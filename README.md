@@ -1,7 +1,7 @@
 
 # Web Automation using Selenium-Java
 
-This project automatically tests certain modules the 'https://automationexercise.com' website, creates a report and generate logs.
+This project automatically tests certain modules of the 'https://automationexercise.com' website, creates a report and generate logs.
 
 
 
