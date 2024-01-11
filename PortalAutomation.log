@@ -1,0 +1,262 @@
+2024-01-11 15:42:05 INFO  Logger - Test Case : Test Set Up starts here
+2024-01-11 15:42:05 INFO  Logger - TEST EXECUTION STARTED
+2024-01-11 15:42:07 INFO  Logger - Chrome Browser Launched
+2024-01-11 15:42:13 INFO  Logger - Typed in url for Portal: https://automationexercise.com
+2024-01-11 15:42:13 INFO  Logger - Test Case : TC3_VerifyHomePageIsVisible starts here
+2024-01-11 15:42:13 INFO  Logger - 'Homepage' logo appeared
+2024-01-11 15:42:13 INFO  Logger - Test Case : VerifyHomePageIsVisible ends here
+2024-01-11 15:42:13 INFO  Logger - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-01-11 15:42:13 INFO  Logger - Suite Name : Default Suite
+2024-01-11 15:42:13 INFO  Logger - Method Name:TC1_VerifyHomePageIsVisible
+2024-01-11 15:42:13 INFO  Logger - TC ID : TC1
+2024-01-11 15:42:13 INFO  Logger - Test Case : TC2_AddProductToCart starts here
+2024-01-11 15:42:13 INFO  Logger - Product name appeared
+2024-01-11 15:42:14 INFO  Logger - 'Add to Cart' button appeared
+2024-01-11 15:42:14 INFO  Logger - 'Add to Cart' button clicked
+2024-01-11 15:42:14 INFO  Logger - 'Continue' button appeared
+2024-01-11 15:42:14 INFO  Logger - 'Continue' button clicked
+2024-01-11 15:42:14 INFO  Logger - Test Case : AddProductToCart ends here
+2024-01-11 15:42:14 INFO  Logger - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-01-11 15:42:14 INFO  Logger - Suite Name : Default Suite
+2024-01-11 15:42:14 INFO  Logger - Method Name:TC2_AddProductToCart
+2024-01-11 15:42:14 INFO  Logger - TC ID : TC2
+2024-01-11 15:42:14 INFO  Logger - Test Case : TC3_VerifyCartPage starts here
+2024-01-11 15:42:14 INFO  Logger - 'Cart' button appeared
+2024-01-11 15:42:16 INFO  Logger - 'Cart' button clicked
+2024-01-11 15:42:16 INFO  Logger - 'Cart page' logo appeared
+2024-01-11 15:42:16 INFO  Logger - 'Proceed To Checkout' button appeared
+2024-01-11 15:42:16 INFO  Logger - 'Proceed To Checkout' button clicked
+2024-01-11 15:42:16 INFO  Logger - Test Case : VerifyCartPage ends here
+2024-01-11 15:42:16 INFO  Logger - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-01-11 15:42:16 INFO  Logger - Suite Name : Default Suite
+2024-01-11 15:42:16 INFO  Logger - Method Name:TC3_VerifyCartPage
+2024-01-11 15:42:16 INFO  Logger - TC ID : TC3
+2024-01-11 15:42:16 INFO  Logger - Test Case : TC4_VerifyRegistration starts here
+2024-01-11 15:42:16 INFO  Logger - 'Register' button appeared
+2024-01-11 15:42:17 INFO  Logger - 'Register' button clicked
+2024-01-11 15:42:17 INFO  Logger - Name appeared
+2024-01-11 15:42:17 INFO  Logger - Name typed
+2024-01-11 15:42:17 INFO  Logger - Email appeared
+2024-01-11 15:42:17 INFO  Logger - Email typed
+2024-01-11 15:42:17 INFO  Logger - Signup button appeared
+2024-01-11 15:42:18 INFO  Logger - Signup button clicked
+2024-01-11 15:42:18 INFO  Logger - Password appeared
+2024-01-11 15:42:18 INFO  Logger - Password typed
+2024-01-11 15:42:18 INFO  Logger - First name appeared
+2024-01-11 15:42:18 INFO  Logger - First name typed
+2024-01-11 15:42:18 INFO  Logger - Last name appeared
+2024-01-11 15:42:18 INFO  Logger - Last name typed
+2024-01-11 15:42:19 INFO  Logger - Address appeared
+2024-01-11 15:42:19 INFO  Logger - Address typed
+2024-01-11 15:42:19 INFO  Logger - State appeared
+2024-01-11 15:42:19 INFO  Logger - State typed
+2024-01-11 15:42:19 INFO  Logger - City appeared
+2024-01-11 15:42:19 INFO  Logger - City typed
+2024-01-11 15:42:19 INFO  Logger - Zipcode appeared
+2024-01-11 15:42:19 INFO  Logger - Zipcode typed
+2024-01-11 15:42:19 INFO  Logger - Mobile number appeared
+2024-01-11 15:42:19 INFO  Logger - Mobile number typed
+2024-01-11 15:42:19 INFO  Logger - Create Account button appeared
+2024-01-11 15:42:21 INFO  Logger - Create Account button clicked
+2024-01-11 15:42:21 INFO  Logger - 'Account Created' successfully appeared
+2024-01-11 15:42:21 INFO  Logger - 'Continue' button appeared
+2024-01-11 15:42:26 INFO  Logger - 'Continue' button clicked
+2024-01-11 15:42:26 INFO  Logger - Test Case : VerifyRegistration ends here
+2024-01-11 15:42:26 INFO  Logger - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-01-11 15:42:26 INFO  Logger - Suite Name : Default Suite
+2024-01-11 15:42:26 INFO  Logger - Method Name:TC4_VerifyRegistration
+2024-01-11 15:42:26 INFO  Logger - TC ID : TC4
+2024-01-11 15:42:26 INFO  Logger - Test Case : TC5_VerifyUsername starts here
+2024-01-11 15:42:26 INFO  Logger - Username appeared
+2024-01-11 15:42:26 INFO  Logger - Test Case : VerifyUsername ends here
+2024-01-11 15:42:26 INFO  Logger - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-01-11 15:42:26 INFO  Logger - Suite Name : Default Suite
+2024-01-11 15:42:26 INFO  Logger - Method Name:TC5_VerifyUsername
+2024-01-11 15:42:26 INFO  Logger - TC ID : TC5
+2024-01-11 15:42:26 INFO  Logger - Test Case : TC6_ProceedToCheckout starts here
+2024-01-11 15:42:26 INFO  Logger - 'Cart' button appeared
+2024-01-11 15:42:28 INFO  Logger - 'Cart' button clicked
+2024-01-11 15:42:28 INFO  Logger - 'Proceed To Checkout' button appeared
+2024-01-11 15:42:29 INFO  Logger - 'Proceed To Checkout' button clicked
+2024-01-11 15:42:29 INFO  Logger - Test Case : ProceedToCheckout ends here
+2024-01-11 15:42:29 INFO  Logger - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-01-11 15:42:29 INFO  Logger - Suite Name : Default Suite
+2024-01-11 15:42:29 INFO  Logger - Method Name:TC6_ProceedToCheckout
+2024-01-11 15:42:29 INFO  Logger - TC ID : TC6
+2024-01-11 15:42:29 INFO  Logger - Test Case : TC7_VerifyProductAndAddress starts here
+2024-01-11 15:42:29 INFO  Logger - 'Product name' from Checkout page appeared
+2024-01-11 15:42:29 INFO  Logger - 'Delivery name' from Checkout page appeared
+2024-01-11 15:42:29 INFO  Logger - 'Delivery Address' from Checkout page appeared
+2024-01-11 15:42:29 INFO  Logger - 'Delivery City' from Checkout page appeared
+2024-01-11 15:42:29 INFO  Logger - 'Delivery Mobile no' from Checkout page appeared
+2024-01-11 15:42:29 INFO  Logger - Test Case : VerifyProductAndAddress ends here
+2024-01-11 15:42:29 INFO  Logger - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-01-11 15:42:29 INFO  Logger - Suite Name : Default Suite
+2024-01-11 15:42:29 INFO  Logger - Method Name:TC7_VerifyProductAndAddress
+2024-01-11 15:42:29 INFO  Logger - TC ID : TC7
+2024-01-11 15:42:29 INFO  Logger - Test Case : TC8_CommentAndPlaceOrder starts here
+2024-01-11 15:42:29 INFO  Logger - Comment in the comment box appeared
+2024-01-11 15:42:30 INFO  Logger - Comment in the comment box typed
+2024-01-11 15:42:30 INFO  Logger - 'Place Order' button appeared
+2024-01-11 15:42:31 INFO  Logger - 'Place Order' button clicked
+2024-01-11 15:42:31 INFO  Logger - Test Case : CommentAndPlaceOrder ends here
+2024-01-11 15:42:31 INFO  Logger - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-01-11 15:42:31 INFO  Logger - Suite Name : Default Suite
+2024-01-11 15:42:31 INFO  Logger - Method Name:TC8_CommentAndPlaceOrder
+2024-01-11 15:42:31 INFO  Logger - TC ID : TC8
+2024-01-11 15:42:31 INFO  Logger - Test Case : TC9_VerifyPaymentAndConfirmOrder starts here
+2024-01-11 15:42:31 INFO  Logger - Name on card appeared
+2024-01-11 15:42:31 INFO  Logger - Name on card typed
+2024-01-11 15:42:31 INFO  Logger - Card number appeared
+2024-01-11 15:42:31 INFO  Logger - Card number typed
+2024-01-11 15:42:31 INFO  Logger - CVC appeared
+2024-01-11 15:42:31 INFO  Logger - CVC typed
+2024-01-11 15:42:31 INFO  Logger - Expiration month of card appeared
+2024-01-11 15:42:31 INFO  Logger - Expiration month of card typed
+2024-01-11 15:42:31 INFO  Logger - Expiration year of card appeared
+2024-01-11 15:42:31 INFO  Logger - Expiration year of card typed
+2024-01-11 15:42:31 INFO  Logger - 'Pay and Confirm Order' button appeared
+2024-01-11 15:42:34 INFO  Logger - 'Pay and Confirm Order' button clicked
+2024-01-11 15:42:34 INFO  Logger - Success message appeared
+2024-01-11 15:42:34 INFO  Logger - Test Case : VerifyPaymentAndConfirmOrder ends here
+2024-01-11 15:42:34 INFO  Logger - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-01-11 15:42:34 INFO  Logger - Suite Name : Default Suite
+2024-01-11 15:42:34 INFO  Logger - Method Name:TC9_VerifyPaymentAndConfirmOrder
+2024-01-11 15:42:34 INFO  Logger - TC ID : TC9
+2024-01-11 15:42:34 INFO  Logger - Test Case : TC10_DeleteTheAccount starts here
+2024-01-11 15:42:34 INFO  Logger - 'Add to Cart' button appeared
+2024-01-11 15:42:35 INFO  Logger - 'Add to Cart' button clicked
+2024-01-11 15:42:35 INFO  Logger - Test Case : DeleteTheAccount ends here
+2024-01-11 15:42:35 INFO  Logger - XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2024-01-11 15:42:35 INFO  Logger - Suite Name : Default Suite
+2024-01-11 15:42:35 INFO  Logger - Method Name:TC10_deletingTheAccount
+2024-01-11 15:42:35 INFO  Logger - TC ID : TC10
+2024-01-11 15:42:35 INFO  Logger - Test Case : Test Tear Down starts here
+2024-01-11 15:42:35 INFO  Logger - Browser Closed
+2024-01-11 15:42:35 INFO  Logger - TEST EXECUTION FINISHED
+2024-01-11 15:54:55 INFO  Logger - Test Case : Test Set Up starts here
+2024-01-11 15:54:55 INFO  Logger - TEST EXECUTION STARTED
+2024-01-11 15:54:57 INFO  Logger - Chrome Browser Launched
+2024-01-11 15:55:04 INFO  Logger - Typed in url for Portal: https://automationexercise.com
+2024-01-11 15:55:04 INFO  Logger - Test Case : TC3_VerifyHomePageIsVisible starts here
+2024-01-11 15:55:04 INFO  Logger - 'Homepage' logo appeared
+2024-01-11 15:55:04 INFO  Logger - Test Case : VerifyHomePageIsVisible ends here
+2024-01-11 15:55:05 INFO  Logger - Suite Name : Default Suite
+2024-01-11 15:55:05 INFO  Logger - Method Name:TC1_VerifyHomePageIsVisible
+2024-01-11 15:55:05 INFO  Logger - TC ID : TC1
+2024-01-11 15:55:05 INFO  Logger - Test Case : TC2_AddProductToCart starts here
+2024-01-11 15:55:05 INFO  Logger - Product name appeared
+2024-01-11 15:55:05 INFO  Logger - 'Add to Cart' button appeared
+2024-01-11 15:55:05 INFO  Logger - 'Add to Cart' button clicked
+2024-01-11 15:55:05 INFO  Logger - 'Continue' button appeared
+2024-01-11 15:55:05 INFO  Logger - 'Continue' button clicked
+2024-01-11 15:55:05 INFO  Logger - Test Case : AddProductToCart ends here
+2024-01-11 15:55:05 INFO  Logger - Suite Name : Default Suite
+2024-01-11 15:55:05 INFO  Logger - Method Name:TC2_AddProductToCart
+2024-01-11 15:55:05 INFO  Logger - TC ID : TC2
+2024-01-11 15:55:05 INFO  Logger - Test Case : TC3_VerifyCartPage starts here
+2024-01-11 15:55:05 INFO  Logger - 'Cart' button appeared
+2024-01-11 15:55:07 INFO  Logger - 'Cart' button clicked
+2024-01-11 15:55:07 INFO  Logger - 'Cart page' logo appeared
+2024-01-11 15:55:07 INFO  Logger - 'Proceed To Checkout' button appeared
+2024-01-11 15:55:07 INFO  Logger - 'Proceed To Checkout' button clicked
+2024-01-11 15:55:07 INFO  Logger - Test Case : VerifyCartPage ends here
+2024-01-11 15:55:07 INFO  Logger - Suite Name : Default Suite
+2024-01-11 15:55:07 INFO  Logger - Method Name:TC3_VerifyCartPage
+2024-01-11 15:55:07 INFO  Logger - TC ID : TC3
+2024-01-11 15:55:07 INFO  Logger - Test Case : TC4_VerifyRegistration starts here
+2024-01-11 15:55:07 INFO  Logger - 'Register' button appeared
+2024-01-11 15:55:08 INFO  Logger - 'Register' button clicked
+2024-01-11 15:55:08 INFO  Logger - Name appeared
+2024-01-11 15:55:08 INFO  Logger - Name typed
+2024-01-11 15:55:08 INFO  Logger - Email appeared
+2024-01-11 15:55:08 INFO  Logger - Email typed
+2024-01-11 15:55:08 INFO  Logger - Signup button appeared
+2024-01-11 15:55:09 INFO  Logger - Signup button clicked
+2024-01-11 15:55:09 INFO  Logger - Password appeared
+2024-01-11 15:55:09 INFO  Logger - Password typed
+2024-01-11 15:55:09 INFO  Logger - First name appeared
+2024-01-11 15:55:09 INFO  Logger - First name typed
+2024-01-11 15:55:09 INFO  Logger - Last name appeared
+2024-01-11 15:55:09 INFO  Logger - Last name typed
+2024-01-11 15:55:09 INFO  Logger - Address appeared
+2024-01-11 15:55:09 INFO  Logger - Address typed
+2024-01-11 15:55:09 INFO  Logger - State appeared
+2024-01-11 15:55:10 INFO  Logger - State typed
+2024-01-11 15:55:10 INFO  Logger - City appeared
+2024-01-11 15:55:10 INFO  Logger - City typed
+2024-01-11 15:55:10 INFO  Logger - Zipcode appeared
+2024-01-11 15:55:10 INFO  Logger - Zipcode typed
+2024-01-11 15:55:10 INFO  Logger - Mobile number appeared
+2024-01-11 15:55:10 INFO  Logger - Mobile number typed
+2024-01-11 15:55:10 INFO  Logger - Create Account button appeared
+2024-01-11 15:55:11 INFO  Logger - Create Account button clicked
+2024-01-11 15:55:11 INFO  Logger - 'Account Created' successfully appeared
+2024-01-11 15:55:11 INFO  Logger - 'Continue' button appeared
+2024-01-11 15:55:18 INFO  Logger - 'Continue' button clicked
+2024-01-11 15:55:18 INFO  Logger - Test Case : VerifyRegistration ends here
+2024-01-11 15:55:18 INFO  Logger - Suite Name : Default Suite
+2024-01-11 15:55:18 INFO  Logger - Method Name:TC4_VerifyRegistration
+2024-01-11 15:55:18 INFO  Logger - TC ID : TC4
+2024-01-11 15:55:18 INFO  Logger - Test Case : TC5_VerifyUsername starts here
+2024-01-11 15:55:18 INFO  Logger - Username appeared
+2024-01-11 15:55:18 INFO  Logger - Test Case : VerifyUsername ends here
+2024-01-11 15:55:18 INFO  Logger - Suite Name : Default Suite
+2024-01-11 15:55:18 INFO  Logger - Method Name:TC5_VerifyUsername
+2024-01-11 15:55:18 INFO  Logger - TC ID : TC5
+2024-01-11 15:55:18 INFO  Logger - Test Case : TC6_ProceedToCheckout starts here
+2024-01-11 15:55:18 INFO  Logger - 'Cart' button appeared
+2024-01-11 15:55:19 INFO  Logger - 'Cart' button clicked
+2024-01-11 15:55:19 INFO  Logger - 'Proceed To Checkout' button appeared
+2024-01-11 15:55:21 INFO  Logger - 'Proceed To Checkout' button clicked
+2024-01-11 15:55:21 INFO  Logger - Test Case : ProceedToCheckout ends here
+2024-01-11 15:55:21 INFO  Logger - Suite Name : Default Suite
+2024-01-11 15:55:21 INFO  Logger - Method Name:TC6_ProceedToCheckout
+2024-01-11 15:55:21 INFO  Logger - TC ID : TC6
+2024-01-11 15:55:21 INFO  Logger - Test Case : TC7_VerifyProductAndAddress starts here
+2024-01-11 15:55:21 INFO  Logger - 'Product name' from Checkout page appeared
+2024-01-11 15:55:21 INFO  Logger - 'Delivery name' from Checkout page appeared
+2024-01-11 15:55:21 INFO  Logger - 'Delivery Address' from Checkout page appeared
+2024-01-11 15:55:21 INFO  Logger - 'Delivery City' from Checkout page appeared
+2024-01-11 15:55:21 INFO  Logger - 'Delivery Mobile no' from Checkout page appeared
+2024-01-11 15:55:21 INFO  Logger - Test Case : VerifyProductAndAddress ends here
+2024-01-11 15:55:21 INFO  Logger - Suite Name : Default Suite
+2024-01-11 15:55:21 INFO  Logger - Method Name:TC7_VerifyProductAndAddress
+2024-01-11 15:55:21 INFO  Logger - TC ID : TC7
+2024-01-11 15:55:21 INFO  Logger - Test Case : TC8_CommentAndPlaceOrder starts here
+2024-01-11 15:55:21 INFO  Logger - Comment in the comment box appeared
+2024-01-11 15:55:21 INFO  Logger - Comment in the comment box typed
+2024-01-11 15:55:21 INFO  Logger - 'Place Order' button appeared
+2024-01-11 15:55:22 INFO  Logger - 'Place Order' button clicked
+2024-01-11 15:55:22 INFO  Logger - Test Case : CommentAndPlaceOrder ends here
+2024-01-11 15:55:22 INFO  Logger - Suite Name : Default Suite
+2024-01-11 15:55:22 INFO  Logger - Method Name:TC8_CommentAndPlaceOrder
+2024-01-11 15:55:22 INFO  Logger - TC ID : TC8
+2024-01-11 15:55:22 INFO  Logger - Test Case : TC9_VerifyPaymentAndConfirmOrder starts here
+2024-01-11 15:55:22 INFO  Logger - Name on card appeared
+2024-01-11 15:55:22 INFO  Logger - Name on card typed
+2024-01-11 15:55:22 INFO  Logger - Card number appeared
+2024-01-11 15:55:22 INFO  Logger - Card number typed
+2024-01-11 15:55:22 INFO  Logger - CVC appeared
+2024-01-11 15:55:22 INFO  Logger - CVC typed
+2024-01-11 15:55:22 INFO  Logger - Expiration month of card appeared
+2024-01-11 15:55:22 INFO  Logger - Expiration month of card typed
+2024-01-11 15:55:22 INFO  Logger - Expiration year of card appeared
+2024-01-11 15:55:22 INFO  Logger - Expiration year of card typed
+2024-01-11 15:55:22 INFO  Logger - 'Pay and Confirm Order' button appeared
+2024-01-11 15:55:25 INFO  Logger - 'Pay and Confirm Order' button clicked
+2024-01-11 15:55:25 INFO  Logger - Success message appeared
+2024-01-11 15:55:25 INFO  Logger - Test Case : VerifyPaymentAndConfirmOrder ends here
+2024-01-11 15:55:25 INFO  Logger - Suite Name : Default Suite
+2024-01-11 15:55:25 INFO  Logger - Method Name:TC9_VerifyPaymentAndConfirmOrder
+2024-01-11 15:55:25 INFO  Logger - TC ID : TC9
+2024-01-11 15:55:25 INFO  Logger - Test Case : TC10_DeleteTheAccount starts here
+2024-01-11 15:55:25 INFO  Logger - 'Add to Cart' button appeared
+2024-01-11 15:55:26 INFO  Logger - 'Add to Cart' button clicked
+2024-01-11 15:55:26 INFO  Logger - Test Case : DeleteTheAccount ends here
+2024-01-11 15:55:26 INFO  Logger - Suite Name : Default Suite
+2024-01-11 15:55:26 INFO  Logger - Method Name:TC10_deletingTheAccount
+2024-01-11 15:55:26 INFO  Logger - TC ID : TC10
+2024-01-11 15:55:26 INFO  Logger - Test Case : Test Tear Down starts here
+2024-01-11 15:55:27 INFO  Logger - Browser Closed
+2024-01-11 15:55:27 INFO  Logger - TEST EXECUTION FINISHED

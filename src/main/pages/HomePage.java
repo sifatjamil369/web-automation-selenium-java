@@ -1,22 +1,23 @@
 package main.pages;
 
-import main.browserutility.DriverCommand;
 import main.helper.CommonUtility;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebDriverException;
 
 public class HomePage extends BaseClass{
 
-    By reserveADeskButtonLocator = By.xpath("//button[normalize-space()='Reserve a Desk']");
-    By noUpcomingReservationLocator = By.xpath("//div[@class='MuiAlert-message css-1xsto0d']");
+    By homePageLogoLocator = By.xpath("//img[@alt='Website for automation practice']");
+    By productNameLocator = By.xpath("(//div[@class='productinfo text-center']/p)[1]");
+    By addToCartButtonLocator = By.xpath("(//a[@data-product-id='1'])[1]");
+    By continueButtonLocator = By.xpath("//button[@class='btn btn-success close-modal btn-block']");
+    By deleteAccountButtonLocator = By.xpath("//a[@href='/delete_account']");
+    By usernameLocator = By.xpath("//b");
 
     /*
-    Checks if the return button is present
+    Checks if the Homepage logo is present
      */
-    public Boolean isReserveADeskButtonPresent() {
+    public Boolean isHomePageLogoPresent() {
         try {
-            return isExpectedElementVisible(reserveADeskButtonLocator, 120, "'Reserve a Desk' button");
+            return isExpectedElementVisible(homePageLogoLocator, 120, "'Homepage' logo");
         } catch (Exception e) {
             CommonUtility.logMessagesAndAddThemToReport(e.getMessage(), "error");
         }
@@ -24,11 +25,56 @@ public class HomePage extends BaseClass{
     }
 
     /*
-    Checks if 'No Upcoming Reservation' message is displayed
+    Gets and returns the product name for verification
      */
-    public Boolean isNoUpcomingReservationDisplayed() {
+    public String getProductName() {
         try {
-            return isExpectedElementVisible(noUpcomingReservationLocator, 120, "'No Upcoming Reservation' announcement");
+            return getText(productNameLocator, 120, "Product name");
+        } catch (Exception e) {
+            CommonUtility.logMessagesAndAddThemToReport(e.getMessage(), "error");
+        }
+        return null;
+    }
+
+    /*
+    Clicks on the 'Add to Cart' button for a product
+     */
+    public void clickOnAddToCartButton() {
+        try {
+            clickOn(addToCartButtonLocator, 120, "'Add to Cart' button");
+        } catch (Exception e) {
+            CommonUtility.logMessagesAndAddThemToReport(e.getMessage(), "error");
+        }
+    }
+
+    /*
+    Clicks on the Continue button
+     */
+    public void clickOnContinueButton() {
+        try {
+            clickOn(continueButtonLocator, 120, "'Continue' button");
+        } catch (Exception e) {
+            CommonUtility.logMessagesAndAddThemToReport(e.getMessage(), "error");
+        }
+    }
+
+    /*
+    Clicks on the 'Delete Account' button
+     */
+    public void clickOnDeleteAccountButton() {
+        try {
+            clickOn(deleteAccountButtonLocator, 120, "'Add to Cart' button");
+        } catch (Exception e) {
+            CommonUtility.logMessagesAndAddThemToReport(e.getMessage(), "error");
+        }
+    }
+
+    /*
+    Gets and returns username for verification
+     */
+    public String getUsername() {
+        try {
+            return getText(usernameLocator,"Username");
         } catch (Exception e) {
             CommonUtility.logMessagesAndAddThemToReport(e.getMessage(), "error");
         }

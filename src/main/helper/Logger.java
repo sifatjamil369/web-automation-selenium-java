@@ -16,8 +16,6 @@ public class Logger {
 
     public static void endTestCase(String sTestCaseName){
         Logger.info("Test Case : "+sTestCaseName+ " ends here");
-        Logger.info("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
-
     }
 
     // Need to create these methods, so that they can be called

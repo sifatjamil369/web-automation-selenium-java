@@ -117,4 +117,12 @@ public class DriverCommand {
 
     }
 
+    /***
+     * Implementing going back functionality
+     */
+    public void backButton() {
+        webDriver.navigate().back();
+
+    }
+
 }

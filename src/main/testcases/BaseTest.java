@@ -9,7 +9,6 @@ import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
-import main.pages.LoginPage;
 
 import java.io.*;
 import java.util.Date;
@@ -23,7 +22,6 @@ public class BaseTest {
     static String reportPath;
     static String suiteName;
 
-    LoginPage loginPage;
 
 
     /***
@@ -65,23 +63,6 @@ public class BaseTest {
         CommonUtility.logMessagesAndAddThemToReport("Typed in url for Portal: " + url, "info");
     }
 
-
-    public void loginUser() {
-        CommonUtility.logCreateNode("userLogin");
-
-//        Credential superAdmin = TestDataProvider.getUserCredential(SUPER_ADMIN_USER_ROLE);
-//
-//        loginPage = PageFactory.getLoginPage();
-//        dashboardPage = PageFactory.getDashboardPage();
-//
-//        loginPage.verifyLoginPage();
-//        loginPage.typeUserName(superAdmin.email);
-//        loginPage.typePassword(superAdmin.password);
-//        CommonUtility.logMessagesAndAddThemToReport("User Credentials Given", "info");
-//        loginPage.clickLoginButton();
-//        dashboardPage.verifyDashboardPageNavigation();
-//        CommonUtility.saveLoggedInUserDetailsToAFile(superAdmin.email, superAdmin.password);
-    }
 
     public void refreshBrowser() {
         try {
@@ -159,20 +140,5 @@ public class BaseTest {
             tcID[0] = " ";
         }
         return tcID[0];
-    }
-
-    /***
-     * Method to get spreadsheet ID from the spreadsheet url
-     * @param spreadsheetUrl Spreadsheet's web url
-     */
-    public String getSpreadsheetIDFromSpreadsheetUrl(String spreadsheetUrl) {
-        Pattern p = Pattern.compile("/spreadsheets/d/([a-zA-Z0-9-_]+)");
-        Matcher m = p.matcher(spreadsheetUrl);
-        String spreadsheetID = "";
-        if (m.find()) {
-            spreadsheetID = m.group(1);
-            CommonUtility.logMessagesAndAddThemToReport("spreadsheet ID : " + spreadsheetID, "info");
-        }
-        return spreadsheetID;
     }
 }

@@ -7,13 +7,6 @@ public final class PagesFactory {
         return PageFactory.initElements(Browser.getWebDriver(), className);
     }
 
-    /**
-     * Method to initiate Login page
-     * @return
-     */
-    public static LoginPage getLoginPage(){
-        return GetPage(LoginPage.class);
-    }
 
     /**
      * Method to initiate Home page
@@ -24,18 +17,35 @@ public final class PagesFactory {
     }
 
     /**
-     * Method to initiate ReserveADeskPage page
+     * Method to initiate Cart page
      * @return
      */
-    public static ReserveADeskPage reserveADeskPage(){
-        return GetPage(ReserveADeskPage.class);
+    public static CartPage getCartPage(){
+        return GetPage(CartPage.class);
     }
 
     /**
-     * Method to initiate Reservations page
+     * Method to initiate Register page
      * @return
      */
-    public static ReservationsPage reservationsPage(){
-        return GetPage(ReservationsPage.class);
+    public static RegisterPage getRegisterPage(){
+        return GetPage(RegisterPage.class);
     }
+
+    /**
+     * Method to initiate Checkout page
+     * @return
+     */
+    public static CheckoutPage getCheckoutPage(){
+        return GetPage(CheckoutPage.class);
+    }
+
+    /**
+     * Method to initiate Payment page
+     * @return
+     */
+    public static PaymentPage getPaymentPage(){
+        return GetPage(PaymentPage.class);
+    }
+
 }
